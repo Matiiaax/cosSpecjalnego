@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dla Wiktorii</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="bg-music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <div id="screen1" class="container enter-from-bottom">
+    <h1>Hej Wiktoria 👋</h1>
+    <button id="revealBtn">Kliknij, mam coś dla Ciebie</button>
+  </div>
+
+  <div id="screen2" class="container hidden letter-container slide-in-right blurred">
+    <p class="handwritten">
+      Hej!<br><br>
+      Po prostu chciałem powiedzieć, że naprawdę bardzo lubię spędzać z Tobą czas. <br>
+      Masz w sobie coś, co sprawia, że chce się więcej takich chwil. Twoje oczy mnie hipnotyzują a twój uśmiech sprawia ,że mój dzień odrazu staje się lepszy<br><br>
+      Twój dotyk, twoja bliskość jest magiczna. Przy tobie czuje się sobą i nie musze nikogo udawać i jest mi naprawdę bardzo dobrze.<br><br>
+      Może to tylko kod, ale płynie prosto z serca 💛<br><br>
+      Dzięki, że jesteś.<br><br>
+      — M.
+    </p>
+    <button id="unblurBtn">Odsłoń list ✉️</button>
+    <button id="smileBtn" class="hidden">Uśmiechnęłam się 😊</button>
+  </div>
+
+  <div id="emojis"></div>
+  <script src="script.js"></script>
+</body>
+</html>
